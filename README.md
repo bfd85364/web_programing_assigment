@@ -29,7 +29,7 @@
   </body>
 </html>
 
--- 파일명: forward_date.jsp
+# 파일명: forward_date.jsp
 <%@ page contentType="text/html; charset=utf-8" %>
 <html>
   <head>
@@ -42,7 +42,7 @@
 </html>
 
 
-#include 액션태그 사용 예 
+# include 액션태그 사용 예 
 
 <%@ page contentType="text/html; charset=utf-8" %>
 <html>
@@ -56,7 +56,7 @@
   </body>
 </html>
 
--- 파일명: second_2.jsp
+# 파일명: second_2.jsp
 
 <%@ page contentType="text/html; charset=utf-8"%>
 <html>
