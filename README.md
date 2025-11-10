@@ -115,5 +115,20 @@
 </html>
 
 
+# include 와 param 액션 태그- 제목과 현재날짜 전달
+
+<%@ page contentType="text/html; charset=utf-8" %>
+<html>
+  <head>
+    <title>Action Tag</title>
+  </head>
+  <body>
+      <h3>param 액션 태그</h3>
+      <jsp:include page="param02_data.jsp">
+  </body>
+</html>
+
+
+
 
 
