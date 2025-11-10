@@ -56,10 +56,18 @@
   </body>
 </html>
 
-<%@ page contentType="text/html; charset=utf-8"%>
-
 -- 파일명: second_2.jsp
 
+<%@ page contentType="text/html; charset=utf-8"%>
+<html>
+<head>
+  <title>Action Tag</title>
+</head>
+<body>
+  <h3>이  파일은 second_2.jsp입니다.</h3>
+  Today is: <%=new java.util.Date() %> 
+</body>
+</html>
 
 
 
