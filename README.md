@@ -51,10 +51,15 @@
   </head>
   <body>
     <h3>이 파일은 first.jsp입니다.</h3>
-    <jsp:include page="second.jsp" flush="false"/>
+    <jsp:include page="second_2.jsp" flush="false"/>
     <p>Jakarta Server Page</p>
   </body>
 </html>
+
+<%@ page contentType="text/html; charset=utf-8"%>
+
+-- 파일명: second_2.jsp
+
 
 
 
