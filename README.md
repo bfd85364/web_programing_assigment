@@ -29,7 +29,7 @@
   </body>
 </html>
 
-#파일명: forward_date.jsp
+-- 파일명: forward_date.jsp
 <%@ page contentType="text/html; charset=utf-8" %>
 <html>
   <head>
@@ -42,6 +42,19 @@
 </html>
 
 
+#include 액션태그 사용 예 
+
+<%@ page contentType="text/html; charset=utf-8" %>
+<html>
+  <head>
+    <title>Action Tag</title>
+  </head>
+  <body>
+    <h3>이 파일은 first.jsp입니다.</h3>
+    <jsp:include page="second.jsp" flush="false"/>
+    <p>Jakarta Server Page</p>
+  </body>
+</html>
 
 
 
